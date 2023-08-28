@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cool Admin</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="navbar" >
+        <div class="row" >
+            <div class="logo">
+                <img src="/Images/cool_admin_logo.png" alt="" width="30px">
+                <p><span>COOL</span>ADMIN</p>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="search for datas and reports">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                
+            </div>
+
+            <div class="icons">
+                <i class="fa-solid fa-comment-dots"></i>
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-solid fa-bell"></i>
+            </div>
+
+            <div class="john">
+                <img src="/Images/john_doe.jpg" alt="" width="40px">
+                <span>John doe
+                <i class="fa-solid fa-chevron-down"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-2" id="menu">
+        <ul>
+          <li>
+            <a href=""
+              ><span><i class="fa-solid fa-gauge-high"></i></span> Dashboad</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><span><i class="fa-solid fa-chart-column"></i></span> Charts</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><span><i class="fa-solid fa-table"></i></span> Tables</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><span><i class="fa-regular fa-square-check"></i></span> Form</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><span><i class="fa-solid fa-calendar-days"></i></span>
+              Calender</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><span><i class="fa-solid fa-location-dot"></i></span> Map</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><span><i class="fa-solid fa-copy"></i></span> Pages</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><span><i class="fa-solid fa-desktop"></i></span> UI elements</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-10" id="content">
+        <div class="d-flex justify-content-between" id="overview">
+          <div class="col-2">Overview</div>
+          <div class="col-2">
+            <button class="btn btn-primary btn-sm">+ ADD ITEM</button>
+          </div>
+        </div>
+
+        <div class='d-flex' id="graphs">
+            <div class="col-3">
+                <img src="/Images/graph-1.png" alt="" >
+            </div>
+            <div class="col-3">
+                <img src="/Images/graph-2.png" alt="">
+            </div>
+            <div class="col-3">
+                <img src="/Images/graph-3.png" alt="">
+            </div>
+            <div class="col-3">
+                <img src="/Images/graph-4.png" alt="">
+            </div>
+        </div>
+
+        <div class="row" id="reports">
+            <div class="col-6">
+                <img src="/Images/report.png" alt="">
+            </div>
+            <div class="col-6">
+                <img src="/Images/chart.png" alt="">
+            </div>
+        </div>
+
+        <div class="row" id="tables">
+            <div class="col-9">
+                <p>Earning by Items</p>
+                <table class="table table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <td>Date</td>
+                            <td>Order Id</td>
+                            <td>Name</td>
+                            <td>Price</td>
+                            <td>Quentity</td>
+                            <td>Total</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                           <td>2023-8-15</td>
+                           <td>100798</td>
+                           <td>Samsung sb black</td>
+                           <td>$756.00</td>
+                           <td>1</td>
+                           <td>$756.00</td> 
+                        </tr>
+                        <tr>
+                            <td>2023-8-16</td>
+                            <td>100898</td>
+                            <td>Poco m2 pro</td>
+                            <td>$750.00</td>
+                            <td>2</td>
+                            <td>$150.00</td> 
+                         </tr>
+                         <tr>
+                            <td>2023-8-17</td>
+                            <td>1+ Nord CE</td>
+                            <td>Samsung sb black</td>
+                            <td>$800.00</td>
+                            <td>3</td>
+                            <td>$24000.00</td> 
+                         </tr>
+                         <tr>
+                            <td>2023-8-18</td>
+                            <td>100338</td>
+                            <td>realme z2</td>
+                            <td>$500.00</td>
+                            <td>4</td>
+                            <td>$20000.00</td> 
+                         </tr>
+                         <tr>
+                            <td>2023-8-19</td>
+                            <td>100328</td>
+                            <td>Norzo</td>
+                            <td>$488.00</td>
+                            <td>1</td>
+                            <td>$488.00</td> 
+                         </tr>
+                         <tr>
+                            <td>2023-8-20</td>
+                            <td>100331</td>
+                            <td>IQ 17</td>
+                            <td>$798.00</td>
+                            <td>1</td>
+                            <td>$798.00</td> 
+                         </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-3" >
+                <p>Top Countries</p>
+                <table class="table" id="table2">
+                    <tr>
+                        <td>India</td>
+                        <td>$7665854.867</td>
+                    </tr>
+                    <tr>
+                        <td>United States</td>
+                        <td>$467654.75</td>
+                    </tr><tr>
+                        <td>Canada</td>
+                        <td>$12345.986</td>
+                    </tr><tr>
+                        <td>Germany</td>
+                        <td>$23456.976</td>
+                    </tr><tr>
+                        <td>Australia</td>
+                        <td>$123456.98</td>
+                    </tr><tr>
+                        <td>Italy</td>
+                        <td>$6756789.986</td>
+                    </tr><tr>
+                        <td>Indonesia</td>
+                        <td>$44678.098</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    
+
+      </div>
+    </div>
+  </body>
+</html>

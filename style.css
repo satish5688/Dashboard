@@ -1,0 +1,92 @@
+#navbar{
+   display: inline-flex;
+}
+
+.logo span{
+    font-weight: 900;
+    font-size: small;
+}
+
+.logo{
+    font-size: small;
+}
+
+.input i{
+    background-color:#0984e3;
+    color: white;
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    margin-left: -4px;
+}
+
+.input input{
+    width: 50%;
+    padding: 4px;
+}
+
+.icons i{
+    margin: 10px;
+    color: gray;
+}
+
+.john span{
+    font-size: small;
+    margin-top: 10px;
+    margin-left: -13px;
+    
+}
+
+#content{
+    background-color: #dfe6e9;
+    
+}
+
+#menu{
+    background-color: white;
+    
+}
+
+#menu li {
+    list-style:none;
+    padding: 10px;
+    
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu li span{
+    margin: 10px;
+}
+
+#overview{
+    font-weight: 500;
+    font-size:large;
+    margin-top: 20px;
+}
+
+
+#graphs img{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    
+}
+
+#reports img{
+    width: 500px;
+    margin: 20px;
+}
+
+#table2 td{
+    background-color: #0984e3;
+    color: white;
+}
+
+#tables p{
+    font-weight: 500;
+    font-size:large;
+}
