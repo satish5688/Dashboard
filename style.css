@@ -2,6 +2,10 @@
    display: inline-flex;
 }
 
+.temp{
+    display: flex;
+}
+
 .logo span{
     font-weight: 900;
     font-size: small;
@@ -21,8 +25,12 @@
 }
 
 .input input{
-    width: 50%;
+    width:400px;
     padding: 4px;
+}
+
+.logo{
+    display: flex;
 }
 
 .icons i{
